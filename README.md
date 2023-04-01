@@ -5,12 +5,14 @@ Good mini game
 ## Programming languages used ##
 Input:
 - `HTML`
+- `CSS`
 - `JS`
 
 
 ## Features ##
 - simple
 - esay
+- cool
 
 
 ## Installation ##
@@ -21,6 +23,13 @@ redy to use
 
 
 ## Changelog ##
-#### Version 1 ####
+#### Version 1.2 ####
 - Initial release.
 - fixed.
+- add style.
+- add local storage.
+- add obb.
+
+
+## Thanks ##
+special thanks @BehradHashemi

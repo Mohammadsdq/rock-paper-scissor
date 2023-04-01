@@ -23,6 +23,54 @@ main {
     text-align: justify;
 }
 
+.inp-label {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+main input {
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main button {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 10px;
+    /* margin: 5px; */
+    cursor: pointer;
+    transition: all .5s;
+    background-color: #a5a5a5;
+    font-size: 20px;
+}
+
+main button:hover {
+    background-color: #808080;
+    color: #fff;
+}
+
+.items {
+    width: 100%;
+    padding: 10px;
+}
+
 main hr {
     color: black;
     background-color: black;

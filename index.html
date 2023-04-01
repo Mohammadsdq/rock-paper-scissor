@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <!-- <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Mini Game</title>
 </head>
@@ -12,16 +12,30 @@
 <body>
 
     <main>
-        <p id="UserChose"></p>
-        <p id="AIChose"></p>
-        <p id="WinLose"></p>
+        <label for="myInput" class="inp-label"> Choose one of the items:<br>rock-paper-scissors</label>
+        <input type="text" name="myInput" list="myList" placeholder="example: scissors">
+        <datalist id="myList">
+            <option value="rock">
+            <option value="paper">
+            <option value="scissors">
+        </datalist>
 
-        <hr>
+        <center>
+            <button>Choose</button>
+        </center>
 
-        <p id="UserScore"></p>
-        <p id="AIScore"></p>
+        <div class="items">
+            <p id="UserChose"></p>
+            <p id="AIChose"></p>
+            <p id="WinLose"></p>
 
-        <h3 id="cheater"></h3>
+            <hr>
+
+            <p id="UserScore"></p>
+            <p id="AIScore"></p>
+
+            <h3 id="cheater"></h3>
+        </div>
     </main>
 
     <!-- js -->

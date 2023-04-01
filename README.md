@@ -16,7 +16,6 @@ Input:
 ## Installation ##
 redy to use
 ```
-result in consol log
 <3  :))
 ```
 

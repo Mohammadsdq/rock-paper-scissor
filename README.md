@@ -32,4 +32,4 @@ redy to use
 
 
 ## Thanks ##
-special thanks @BehradHashemi
+special thanks <a href="https://github.com/BehradHashemi">@BehradHashemi</a>

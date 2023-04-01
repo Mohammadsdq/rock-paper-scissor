@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: monospace, sans-serif;
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem;
+    font-size: 18px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 15px;
+    width: 20vw;
+    height: auto;
+    text-align: justify;
+}
+
+main hr {
+    color: black;
+    background-color: black;
+    border-bottom: 1px solid #3b3b3b;
+    margin: 15px 0;
+}
+
+main p {
+    margin-bottom: 2px;
+}
